@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: font-family: 'Work Sans', sans-serif;
+    font-family:'Work Sans', sans-serif;
 }
 
 /* ___________________shared section_______________________________ */
@@ -83,14 +83,6 @@
 }
 
 
-.background-circle {
-    width: 527.929px;
-    height: 527.929px;
-    border-radius: 527.929px;
-    background: linear-gradient(0deg, #00b7ff 0%, rgba(0, 95, 172, 0.00) 100%);
-    align-self: self-end;
-    margin-left: 22px;
-}
 
 .failure-item-title {
     color: #151414;
@@ -166,26 +158,32 @@
 
 /* _______________banner section___________________________ */
 
-.banner {
+/* .banner {
     display: flex;
     justify-content: center;
     margin-top: 200px;
-}
+} */
 
 .banner-content {
     position: relative;
     margin-bottom: 130px;
-
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-.banner-content div {
+/* .banner-content div {
     position: absolute;
     top: 100px;
     width: 460px;
 
 
-}
+} */
 
 .banner-content div * {
     margin-bottom: 20px;
@@ -193,7 +191,7 @@
 }
 
 .banner-tittle {
-    color: #FFF;
+    /* color: #FFF; */
     font-size: 40px;
     font-weight: 700;
 
